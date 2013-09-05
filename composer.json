@@ -1,0 +1,32 @@
+{
+ "name":       "coolcsn/csn-contact",
+ "description":  "Theme for our modules.",
+ "type":    "library",
+ "license":   "BSD-3-Clause",
+ "homepage":   "https://github.com/coolcsn/CsnContact",
+ "keywords": [
+  "zf2",
+  "csn-contact",
+  "CsnContact",
+  "doctrine"
+ ],
+ 
+ "authors":[
+  {
+   "name":  "Elena Chavdarova",
+   "email": "elenachavdarova91@gmail.com",
+   "role":  "Developer" 
+  }
+ ],
+ 
+ "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/doctrine-orm-module": ">=0.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "CsnUser\\": "src/"
+        }
+    }
+}
